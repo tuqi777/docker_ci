@@ -1,0 +1,27 @@
+{
+    "deploy": {
+        "packages": [{
+            "files": [
+                "**/*",
+            ],
+
+            "exclude": [
+                "node_modules/**",
+                ".git/**",
+                ".vscode/**",
+                "**/node_modules/**",
+            ],
+            "deployOnSave": false
+        }],
+        "targets": [{
+            "type": "sftp",
+            "name": "AliyunServer",
+            "dir": "/mydocker/docker_ci",
+            "host": "59.110.137.44",
+            "port": 22,
+            "user": "root",
+            "privateKey": "C:/Users/DELL/.ssh/DOCKER_HOME.pem"
+            // "password": "Jszc@123"
+        }],
+    },
+}
