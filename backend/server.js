@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.static('static'))
 
-app.get('/', (req, res) => res.send('Hello World!'))
+app.get('/', (req, res) => res.send('Hello World!!!!!!!!!'))
 
 
 app.listen(3000, () => console.log('Example app listening on port 3000!'))
@@ -38,7 +38,7 @@ app.get('/api/top', async (req, res) => {
   })
   res.json({
     code: 0, 
-    data: newData.slice(0, 2)
+    data: newData.slice(0, 5)
   })
 })
 
