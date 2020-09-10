@@ -20,8 +20,8 @@
             "host": "59.110.137.44",
             "port": 22,
             "user": "root",
-            "privateKey": "C:/Users/DELL/.ssh/DOCKER_HOME.pem"
-            // "password": "Jszc@123"
+            // "privateKey": "C:/Users/DELL/.ssh/DOCKER_HOME.pem"
+            "password": "Jszc@123"
         }],
     },
 }
