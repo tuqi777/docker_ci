@@ -9,7 +9,7 @@ import './user.scss'
 export default class Index extends Component {
 
   config = {
-    navigationBarTitleText: '个人中心'
+    navigationBarTitleText: '个人中心111111'
   }
   constructor(props){
     super(props)
