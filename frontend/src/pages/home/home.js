@@ -1,4 +1,4 @@
-import Taro, { Component, hideToast } from '@tarojs/taro'
+import { Component, hideToast } from '@tarojs/taro'
 import { View,Swiper, SwiperItem, Image } from '@tarojs/components'
 import { AtDivider,AtNavBar, AtCard, AtBadge,AtIcon,AtLoadMore } from 'taro-ui'
 import './home.scss'

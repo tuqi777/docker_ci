@@ -10,7 +10,6 @@ mongodb.once("connect", async () => {
         // 删除已存在
         await col.deleteMany();
 
-
         const allData = []
         goods.tags.forEach(key => {
             goods.data[key].forEach(cor => {
