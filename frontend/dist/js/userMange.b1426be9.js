@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["userMange"],{"649d":function(e,n,t){"use strict";t.r(n);var r=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[t("h1",[t("router-view")],1)])},c=[],u={},s=u,a=t("c701"),i=Object(a["a"])(s,r,c,!1,null,"5520ec61",null);n["default"]=i.exports}}]);

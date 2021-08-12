@@ -1,0 +1,1 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["setting"],{7424:function(e,n,t){"use strict";t.r(n);var c=function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",[e._v(" 设置主页 ")])},s=[],i={},r=i,u=t("c701"),a=Object(u["a"])(r,c,s,!1,null,"31054f97",null);n["default"]=a.exports}}]);
