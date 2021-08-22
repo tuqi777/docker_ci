@@ -4,8 +4,3 @@ apps:
     watch  : true
     env    :
       NODE_ENV: production
-  - script : webhooks.js
-    instances: 2
-    watch  : true
-    env    :
-      NODE_ENV: production

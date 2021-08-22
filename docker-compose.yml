@@ -30,3 +30,12 @@ services:
       - ./nginx/conf.d/:/etc/nginx/conf.d
       - ./frontend/dist:/var/www/html/
       - ./static/:/static/
+  node-webhooks:
+    container_name: node-webhooks
+    #构建容器
+    build: .
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "7777:7777"
+    restart: always
