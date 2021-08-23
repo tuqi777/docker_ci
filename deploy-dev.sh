@@ -8,7 +8,7 @@ echo 执行git pull
 
 # 强制重新编译容器
 docker-compose down
-docker-compose up -d --force-recreate --build
+docker-compose up --force-recreate --build
 
 echo 编译完成--finished
 # 定制镜像
